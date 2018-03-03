@@ -2,7 +2,7 @@
 
 ## Overview
 
-A solution to the homework at https:github.com/adhocteam/homework/tree/master/slcsp written in Go.
+A solution to the [homework provided by AdHoc](https://github.com/adhocteam/homework/tree/master/slcsp), written in Go.
 
 Please note this is a Java guy's very first Go program, an attempt to something useful for yours truly personally.
 The code was written for an interview test with no real use for the recipient anyway, so I saw it as a nice
