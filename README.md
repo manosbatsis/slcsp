@@ -1,8 +1,9 @@
+# Calculate second lowest cost silver plan (SLCSP)
 
+A solution to the [homework provided by AdHoc](https://github.com/adhocteam/homework/tree/master/slcsp), written in Go.
 
 ## Overview
 
-A solution to the [homework provided by AdHoc](https://github.com/adhocteam/homework/tree/master/slcsp), written in Go.
 
 Please note this is a Java guy's very first Go program, an attempt to something useful for yours truly personally.
 The code was written for an interview test with no real use for the recipient anyway, so I saw it as a nice
@@ -50,14 +51,12 @@ Appendix A, B, C: see the [COMMENTS](COMMENTS) file
 
 ## Original Instructions
 
-### Calculate second lowest cost silver plan (SLCSP)
-
-#### Problem
+### Problem
 
 You have been asked to determine the second lowest cost silver plan (SLCSP) for
 a group of ZIP Codes.
 
-#### Task
+### Task
 
 You have been given a CSV file, `slcsp.csv`, which contains the ZIP Codes in the
 first column. Fill in the second column with the rate (see below) of the
@@ -73,7 +72,7 @@ It may not be possible to determine a SLCSP for every ZIP Code given. Check for 
 where a definitive answer cannot be found and leave those cells blank in the output CSV (no
 quotes or zeroes or other text).
 
-#### Additional information
+### Additional information
 
 The SLCSP is the so-called "benchmark" health plan in a particular area. It is
 used to compute the tax credit that qualifying individuals and families receive
