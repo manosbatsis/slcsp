@@ -1,4 +1,7 @@
 
+
+## Overview
+
 A solution to the homework at https:github.com/adhocteam/homework/tree/master/slcsp written in Go.
 
 Please note this is a Java guy's very first Go program, an attempt to something useful for yours truly personally.
@@ -8,6 +11,8 @@ opportunity to give the language a try.
 Thus, you will probably not find a professional sample of Go code here, especially since I tend to see things from
 an OO perspective and have little knowledge of the language properties, idioms and conventions. This actually took
 hours to write while googling for the absolute basics. Even worse, anything is possible without a test case!
+
+## Assumptions
 
 The code makes the following assumptions:
 
@@ -24,7 +29,11 @@ The code makes the following assumptions:
 Tp run this program you need to have Go installed in your path. Simply navigate to the slcsp folder in your command
 line interface and execute the following:
 
+## Run
+
+```
 go run slcsp.go
+```
 
 The program will produce the folowing output:
 
@@ -39,7 +48,7 @@ WARNING: 2017/11/20 03:46:29 slcsp.go:355: Note: 10 zip codes had insufficient p
 
 Appendix A, B, C: see the [COMMENTS](COMMENTS) file
 
-## Original Instructions 
+## Original Instructions
 
 ### Calculate second lowest cost silver plan (SLCSP)
 
@@ -87,8 +96,8 @@ example, NY 1, IL 14.
 
 There are two additional CSV files in this directory besides `slcsp.csv`:
 
-  * `plans.csv` -- all the health plans in the U.S. on the marketplace
-  * `zips.csv` -- a mapping of ZIP Code to county/counties & rate area(s)
+* `plans.csv` -- all the health plans in the U.S. on the marketplace
+* `zips.csv` -- a mapping of ZIP Code to county/counties & rate area(s)
 
 A ZIP Code can potentially be in more than one county. If the county can not be
 determined definitively by the ZIP Code, it may still be possible to determine
